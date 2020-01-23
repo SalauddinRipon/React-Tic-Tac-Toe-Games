@@ -1,0 +1,14 @@
+import React from 'react'
+import './App.css'
+import Game from './component/game'
+const App = () => {
+    return(
+        <div className='app'>
+            <h1>Tic Tok TOe</h1>
+            <Game/>
+        </div>
+    )
+}
+
+
+export default App
